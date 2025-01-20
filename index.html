@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./css/style.css" />
+		<title>Advanced Random Quote Generator</title>
+	</head>
+	<body>
+		<div class="container">
+			<select class="category-select" id="category">
+				<option value="all">All Categories</option>
+				<option value="inspiration">Inspiration</option>
+				<option value="love">Love</option>
+				<option value="wisdom">Wisdom</option>
+				<option value="humor">Humor</option>
+			</select>
+
+			<div class="quote-box">
+				<p class="quote-text" id="quote"></p>
+				<p class="quote-author" id="author"></p>
+				<span class="quote-category" id="displayedCategory"></span>
+			</div>
+
+			<div class="controls">
+				<button class="new-quote" id="newQuote">New Quote</button>
+				<button class="favorite" id="favorite">❤ Favorite</button>
+				<button class="share-btn" id="share">Share</button>
+			</div>
+
+			<div class="favorites-list" id="favoritesList"></div>
+			<div class="loading" id="loading"></div>
+		</div>
+		<script src="./js/script.js"></script>
+	</body>
+</html>
