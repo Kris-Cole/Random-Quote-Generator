@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+
 body {
     font-family: 'Poppins', sans-serif;
     background: linear-gradient(135deg, #1e3c72, #2a5298);
@@ -16,7 +17,7 @@ body {
 }
 
 .container {
-    background: rgba(255, 255, 255, 0.9);
+    background: rgba(255, 255, 255, 0.85);
     padding: 30px;
     border-radius: 15px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
